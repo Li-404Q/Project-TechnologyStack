@@ -3,20 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <title>Document</title>
-    <style>
-      .truncate-text {
-        width: 200px;
-        /* 1. 固定容器宽度（必填） */
-        white-space: nowrap;
-        /* 2. 强制文本不换行（必填） */
-        overflow: hidden;
-        /* 3. 隐藏溢出内容（必填） */
-        text-overflow: ellipsis;
-      }
-    </style>
   </head>
 
   <body>
+    <div class="truncate-text">
+      这是一段非常长的文本内容，超出容器宽度时会自动截断并显示省略号。
+    </div>
     <div class="truncate-text">
       这是一段非常长的文本内容，超出容器宽度时会自动截断并显示省略号。
     </div>
